@@ -340,3 +340,47 @@ Child 904: Child process is running
 [Thu Nov 22 17:40:27 2018] [notice] Child 904: All worker threads have exited.
 [Thu Nov 22 17:40:27 2018] [notice] Child 904: Child process is exiting
 [Thu Nov 22 17:40:27 2018] [notice] Parent: Child process exited successfully.
+[Thu Nov 22 18:00:35 2018] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 22 18:00:35 2018] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 22 18:00:35 2018] [notice] Parent: Created child process 2408
+Apache server shutdown initiated...
+Child 2408: Child process is running
+[Thu Nov 22 18:00:35 2018] [notice] Child 2408: Acquired the start mutex.
+[Thu Nov 22 18:00:35 2018] [notice] Child 2408: Starting 64 worker threads.
+[Thu Nov 22 18:00:35 2018] [notice] Child 2408: Starting thread to listen on port 8080.
+[Thu Nov 22 18:00:57 2018] [error] [client 127.0.0.1] File does not exist: C:/Users/VIRNECT/Documents/github/ASpring/favicon.ico, referer: http://localhost:8080/index.pl
+[Thu Nov 22 18:29:20 2018] [error] [client 127.0.0.1] Use of uninitialized value $comment in print at C:/Users/VIRNECT/Documents/github/ASpring/generate.pl line 172., referer: http://localhost:8080/index.pl
+[Thu Nov 22 18:30:06 2018] [error] [client 127.0.0.1] Use of uninitialized value $comment in print at C:/Users/VIRNECT/Documents/github/ASpring/generate.pl line 172., referer: http://localhost:8080/index.pl
+[Thu Nov 22 18:30:08 2018] [error] [client 127.0.0.1] Use of uninitialized value $comment in print at C:/Users/VIRNECT/Documents/github/ASpring/generate.pl line 172., referer: http://localhost:8080/index.pl
+[Thu Nov 22 18:30:09 2018] [error] [client 127.0.0.1] Use of uninitialized value $comment in print at C:/Users/VIRNECT/Documents/github/ASpring/generate.pl line 172., referer: http://localhost:8080/index.pl
+[Thu Nov 22 18:30:10 2018] [error] [client 127.0.0.1] Use of uninitialized value $comment in print at C:/Users/VIRNECT/Documents/github/ASpring/generate.pl line 172., referer: http://localhost:8080/index.pl
+[Thu Nov 22 18:30:12 2018] [error] [client 127.0.0.1] Use of uninitialized value $comment in print at C:/Users/VIRNECT/Documents/github/ASpring/generate.pl line 172., referer: http://localhost:8080/index.pl
+[Thu Nov 22 18:30:17 2018] [error] [client 127.0.0.1] Use of uninitialized value $comment in print at C:/Users/VIRNECT/Documents/github/ASpring/generate.pl line 172., referer: http://localhost:8080/index.pl
+[Thu Nov 22 18:30:18 2018] [error] [client 127.0.0.1] Use of uninitialized value $comment in print at C:/Users/VIRNECT/Documents/github/ASpring/generate.pl line 172., referer: http://localhost:8080/index.pl
+[Thu Nov 22 18:32:09 2018] [error] [client 127.0.0.1] Use of uninitialized value $comment in print at C:/Users/VIRNECT/Documents/github/ASpring/generate.pl line 172., referer: http://localhost:8080/index.pl
+[Thu Nov 22 18:32:11 2018] [error] [client 127.0.0.1] Use of uninitialized value $comment in print at C:/Users/VIRNECT/Documents/github/ASpring/generate.pl line 172., referer: http://localhost:8080/index.pl
+[Thu Nov 22 18:32:12 2018] [error] [client 127.0.0.1] Use of uninitialized value $comment in print at C:/Users/VIRNECT/Documents/github/ASpring/generate.pl line 172., referer: http://localhost:8080/index.pl
+[Thu Nov 22 18:33:33 2018] [error] [client 127.0.0.1] Use of uninitialized value $comment in print at C:/Users/VIRNECT/Documents/github/ASpring/generate.pl line 172., referer: http://localhost:8080/index.pl
+[Thu Nov 22 18:33:56 2018] [error] [client 127.0.0.1] Use of uninitialized value $comment in print at C:/Users/VIRNECT/Documents/github/ASpring/generate.pl line 172., referer: http://localhost:8080/index.pl
+[Thu Nov 22 18:34:10 2018] [error] [client 127.0.0.1] Use of uninitialized value $comment in print at C:/Users/VIRNECT/Documents/github/ASpring/generate.pl line 172., referer: http://localhost:8080/index.pl
+[Thu Nov 22 18:34:11 2018] [error] [client 127.0.0.1] Use of uninitialized value $comment in print at C:/Users/VIRNECT/Documents/github/ASpring/generate.pl line 172., referer: http://localhost:8080/index.pl
+[Thu Nov 22 18:34:13 2018] [error] [client 127.0.0.1] Use of uninitialized value $comment in print at C:/Users/VIRNECT/Documents/github/ASpring/generate.pl line 172., referer: http://localhost:8080/index.pl
+[Thu Nov 22 19:00:57 2018] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 22 19:00:57 2018] [notice] Child 2408: Exit event signaled. Child process is ending.
+[Thu Nov 22 19:00:58 2018] [notice] Child 2408: Released the start mutex
+[Thu Nov 22 19:01:03 2018] [warn] pid file C:/Users/VIRNECT/Documents/github/ASpring/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Nov 22 19:01:03 2018] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 22 19:01:03 2018] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 22 19:01:03 2018] [notice] Parent: Created child process 5820
+Apache server shutdown initiated...
+Child 5820: Child process is running
+[Thu Nov 22 19:01:03 2018] [notice] Child 5820: Acquired the start mutex.
+[Thu Nov 22 19:01:03 2018] [notice] Child 5820: Starting 64 worker threads.
+[Thu Nov 22 19:01:03 2018] [notice] Child 5820: Starting thread to listen on port 8080.
+[Thu Nov 22 19:01:05 2018] [notice] Child 2408: All worker threads have exited.
+[Thu Nov 22 19:01:05 2018] [notice] Child 2408: Child process is exiting
+[Thu Nov 22 19:18:52 2018] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 22 19:18:52 2018] [notice] Child 5820: Exit event signaled. Child process is ending.
+[Thu Nov 22 19:18:53 2018] [notice] Child 5820: Released the start mutex
+[Thu Nov 22 19:19:08 2018] [notice] Child 5820: All worker threads have exited.
+[Thu Nov 22 19:19:08 2018] [notice] Child 5820: Child process is exiting

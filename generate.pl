@@ -23,7 +23,7 @@ $year+=1900;
 $mon+=1;
 
 my $xdate=sprintf("%x_%x_%x",$year,$mon,$mday);
-my $define=uc $project.'_'.$xdate.'_'.uc $file."_HPP_INCLUDED";
+my $define=uc $project.'_'.$xdate.'_'.uc $file."_H_INCLUDED";
 $define=~ s/ /_/g;
 
 
@@ -65,7 +65,7 @@ sub CommentOfC(){
 sub CommentOfHPP(){
 	my $ret;
 	$ret="/*
-*  $file.hpp
+*  $file.h
 *  $project
 *
 *  Created by $owner on $year. $mon. $mday...
@@ -91,7 +91,7 @@ sub CommentOfCPP(){
 *  Copyright $year $group. All rights reserved.
 *
 */
-#include\"$file.hpp\"
+#include\"$file.h\"
 ";
 	return $ret;
 }
@@ -106,7 +106,7 @@ sub CommentOfMFC(){
 *
 */
 #include\"stdafx.h\"
-#include\"$file.hpp\"\
+#include\"$file.h\"\
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -119,7 +119,7 @@ static char THIS_FILE[] = __FILE__;
 sub CommentOfMFC_H(){
         my $ret;
         $ret="/*
-*  $file.hpp
+*  $file.h
 *  $project
 *
 *  Created by $owner on $year. $mon. $mday...
@@ -152,7 +152,23 @@ use feature qw(say);
 ";
 	return $ret;
 }
+sub CommentOfPYTHON(){
+	my $ret;
+	$ret="#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+'''
+  $file.py
+  $project
 
+  Created by $owner on $year. $mon. $mday...
+  Copyright $year $group. All rights reserved.
+'''
+
+import os
+import sys
+";
+	return $ret;
+}
 print $cgi->header(-charset=>'UTF-8');
 
 my $comment;
@@ -162,6 +178,7 @@ if($type eq "implement"){
 	$comment=CommentOfCPP if($language eq "cpp");
 	$comment=CommentOfMFC if($language eq "mfc");
 	$comment=CommentOfPERL if($language eq "perl");
+	$comment=CommentOfPYTHON if($language eq "python");
 }else{
 	
 	$comment=CommentOfH if($language eq "c");

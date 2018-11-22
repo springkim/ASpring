@@ -5,7 +5,10 @@ use feature qw(say);
 use CGI;
 my $cgi=new CGI;
 
-my $about_aspring='ASpring은 C,C++,MFC,Perl 언어를 사용할때 가시성을 보다 좋게 하기 위한 주석을 자동으로 생성해 줍니다. 지원 언어 추가나 사이트에 대한 문의는 springnode@gmail.com 으로 메일 주시면 됩니다. 프로그래밍은 즐거운것 입니다!';
+my $about_aspring='ASpring generates file header comments for various programming languages.<br>
+Created by kimbomm on 2017. 08. 05...<br>
+Copyright 2017-2018 kimbomm. All rights reserved.
+';
 my $highlight_header='
 <!--highlight-->
 <link rel="stylesheet" href="3rdparty/highlight/styles/solarized-light.css">
@@ -63,40 +66,50 @@ my $jquery='
                         $("#g_language").val($("#rd_c").val());
                         $("#cppviewer").css("display","block");
                         $("#hppviewer").css("display","block");
-                        $("#perlviewer").css("display","none");
+                        $("#scriptviewer").css("display","none");
 			$("#copyclp_hpp").css("display","block");
 			$("#copyclp_cpp").css("display","block");
-			$("#copyclp_perl").css("display","none");
+			$("#copyclp_script").css("display","none");
                         update_code();
                 });
 		$("#rd_cpp").click(function(){
 			$("#g_language").val($("#rd_cpp").val());
 			$("#cppviewer").css("display","block");
 			$("#hppviewer").css("display","block");
-			$("#perlviewer").css("display","none");
+			$("#scriptviewer").css("display","none");
 			$("#copyclp_hpp").css("display","block");
 			$("#copyclp_cpp").css("display","block");
-			$("#copyclp_perl").css("display","none");
+			$("#copyclp_script").css("display","none");
 			update_code();
 		});
 		$("#rd_mfc").click(function(){
                         $("#g_language").val($("#rd_mfc").val());
 			$("#cppviewer").css("display","block");
                         $("#hppviewer").css("display","block");
-                        $("#perlviewer").css("display","none");
+                        $("#scriptviewer").css("display","none");
 			$("#copyclp_hpp").css("display","block");
 			$("#copyclp_cpp").css("display","block");
-			$("#copyclp_perl").css("display","none");
+			$("#copyclp_script").css("display","none");
 			update_code();
                 });
 		$("#rd_perl").click(function(){
                         $("#g_language").val($("#rd_perl").val());
 			$("#cppviewer").css("display","none");
 			$("#hppviewer").css("display","none");
-			$("#perlviewer").css("display","block");
+			$("#scriptviewer").css("display","block");
 			$("#copyclp_hpp").css("display","none");
 			$("#copyclp_cpp").css("display","none");
-			$("#copyclp_perl").css("display","block");
+			$("#copyclp_script").css("display","block");
+			update_code();
+                });
+		$("#rd_python").click(function(){
+                        $("#g_language").val($("#rd_python").val());
+			$("#cppviewer").css("display","none");
+			$("#hppviewer").css("display","none");
+			$("#scriptviewer").css("display","block");
+			$("#copyclp_hpp").css("display","none");
+			$("#copyclp_cpp").css("display","none");
+			$("#copyclp_script").css("display","block");
 			update_code();
                 });
 		var update_code=function(){
@@ -113,41 +126,46 @@ my $jquery='
                                         ,"project":project
                                         ,"owner":owner
                                         ,"group":group
-					,"type":"implement"
+								,"type":"implement"
                                 },
                                 success : function(r){
-					if(language == "cpp" || language == "mfc" || language == "c"){
-                                        	$("#codeviewer_cpp").html(r);
-					}
-					if(language == "perl"){
-						$("#codeviewer_perl").html(r);
-					}
-                                        $("pre code").each(function(i, e) {hljs.highlightBlock(e)});
+									if(language == "cpp" || language == "mfc" || language == "c"){
+															$("#codeviewer_cpp").html(r);
+									}
+									if(language == "perl"){
+										$("#codeviewer_script").html(r);
+										$("#codeviewer_script").attr(\'class\', \'perl\');
+									}
+									if(language == "python"){
+										$("#codeviewer_script").html(r);
+										$("#codeviewer_script").attr(\'class\', \'python\');
+									}
+                                    $("pre code").each(function(i, e) {hljs.highlightBlock(e)});
                                 },
                                 error:function(a,b,c){
                                         alert("Ajax failed:"+c);
                                 }
                         });
-			if(language == "cpp" || language == "mfc" || language == "c"){
-				$.ajax({
-                                	url:\'generate.pl\',
-                                	data:{
-                                       		"language":language
-	                                        ,"file":file
-        	                                ,"project":project
-                	                        ,"owner":owner
-                        	                ,"group":group
-                                	        ,"type":"header"
-                                	},
-	                                success : function(r){
-        	                                $("#codeviewer_hpp").html(r);
-                                	        $("pre code").each(function(i, e) {hljs.highlightBlock(e)});
-                        	        },
-                               	 	error:function(a,b,c){
-                                        	alert("Ajax failed:"+c);
-                                	}
-                        	});
-			}
+						if(language == "cpp" || language == "mfc" || language == "c"){
+							$.ajax({
+												url:\'generate.pl\',
+												data:{
+														"language":language
+														,"file":file
+														,"project":project
+														,"owner":owner
+														,"group":group
+														,"type":"header"
+												},
+												success : function(r){
+														$("#codeviewer_hpp").html(r);
+														$("pre code").each(function(i, e) {hljs.highlightBlock(e)});
+												},
+												error:function(a,b,c){
+														alert("Ajax failed:"+c);
+												}
+										});
+						}
 		}
 		$("#ed_file").keyup(update_code);
 		$("#ed_project").keyup(update_code);
@@ -208,7 +226,7 @@ print <<EOF
           <ul class="slides">
             <li>
               <h1>ASpring</h1>
-              <h2>template generator</h2>
+              <h2>A file comment generator</h2>
             </li>
           </ul>
         </div>
@@ -239,7 +257,7 @@ print <<EOF
 	       <div class="col-md-3">
 	         <div class="main-avatar text-center">
 	           <div class="avatar img-thumbnail img-circle">
-	             <img src="3rdparty/joker/img/_kimbom2013.png" alt="avatar" />
+	             <img src="3rdparty/joker/img/avatar.png" alt="avatar" />
 	           </div>
 	         </div>
 	       </div>
@@ -290,7 +308,7 @@ print <<EOF
                 <input type="radio" name="rd_language" id="rd_c" value="c" data-toggle="radio">
                   C
               </label>
-	     <label class="radio">
+			 <label class="radio">
                 <input type="radio" name="rd_language" id="rd_cpp" value="cpp" data-toggle="radio" checked="">
                   C++
               </label>
@@ -302,6 +320,10 @@ print <<EOF
                 <input type="radio" name="rd_language" id="rd_perl" value="perl" data-toggle="radio">
                   Perl
               </label>
+			  <label class="radio">
+                <input type="radio" name="rd_language" id="rd_python" value="python" data-toggle="radio">
+                  Python
+              </label>
 
            </div>
 		<div class="col-md-1">
@@ -309,8 +331,8 @@ print <<EOF
 		<div id="vertical-slider" style="height: 150px;"></div>
 	   </div>
          </div>
-	<button class="btn btn-hg btn-primary copy-button" id="copyclp_hpp" data-clipboard-action="copy" data-clipboard-target="#hppviewer">
-	   Copy C/C++ header to clipboard
+	<button class="btn btn-hg btn-primary copy-button" id="copyclp_hpp" data-clipboard-action="copy" data-clipboard-target="#codeviewer_hpp">
+	   Copy C/C++ header comment to clipboard
 	</button>
          <pre id="hppviewer" style="border:0px;padding:0px;background-color:transparent;font-size:20px;text-align:left">
            <code class="cpp" id="codeviewer_hpp">
@@ -320,8 +342,8 @@ print <<EOF
 
 
 
-	<button class="btn btn-hg btn-primary copy-button" id="copyclp_cpp" data-clipboard-action="copy" data-clipboard-target="#cppviewer">
-	  Copy C/C++ code to clipboard
+	<button class="btn btn-hg btn-primary copy-button" id="copyclp_cpp" data-clipboard-action="copy" data-clipboard-target="#codeviewer_cpp">
+	  Copy C/C++ source comment to clipboard
 	</button>
 	<pre id="cppviewer" style="border:0px;padding:0px;background-color:transparent;font-size:20px;text-align:left">
            <code class="cpp" id="codeviewer_cpp">
@@ -332,11 +354,11 @@ print <<EOF
 
 
 
-	<button class="btn btn-hg btn-primary copy-button" id="copyclp_perl" style="display:none" data-clipboard-action="copy" data-clipboard-target="#perlviewer">
-	   Copy script to clipboard
+	<button class="btn btn-hg btn-primary copy-button" id="copyclp_script" style="display:none" data-clipboard-action="copy" data-clipboard-target="#codeviewer_script">
+	   Copy script comment to clipboard
 	</button>
-	<pre id="perlviewer" style="display:none;border:0px;padding:0px;background-color:transparent;font-size:20px;text-align:left">
-           <code class="perl" id="codeviewer_perl">
+	<pre id="scriptviewer" style="display:none;border:0px;padding:0px;background-color:transparent;font-size:20px;text-align:left">
+           <code class="perl" id="codeviewer_script">
 
            </code>
          </pre>
@@ -354,7 +376,7 @@ print <<EOF
         <div class="row">
 			<div class="col-md-6 ">
 				<div class="cp-right">
-					<p>&copy; 2017 <a href="http://kimbom.co.kr" class="color-primary linear">kimbom</a>. All Rights Reserved. springnode&#64gmail.com</p>
+					<p>&copy; 2017 <a href="http://kimbomm.ghost.io" class="color-primary linear">kimbomm</a>. All Rights Reserved. springnode&#64gmail.com</p>
 
 				</div><!-- end build -->
 			</div><!-- end col -->
@@ -362,8 +384,6 @@ print <<EOF
 			<div class="col-md-6 text-right">
 			<ul class="list-inline">
 			<li><a href="https://github.com/springkim" class="socIcon color-primary linear"><i class="fa fa-github fa-2x"></i></a></li>
-			<li><a href="http://cviplab.sogang.ac.kr/" class="socIcon color-primary linear"><i class="fa fa-info-circle fa-2x"></i></a></li>
-			<li><a href="http://kimbom.co.kr" class="socIcon color-primary linear"><i class="fa fa-archive fa-2x"></i></a></li>
 			</ul>
 
 			</div>
