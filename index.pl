@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!C:/Strawberry/perl/bin/perl.exe
 use strict;
 use warnings;
 use feature qw(say);
@@ -60,7 +60,7 @@ my $jquery='
 	$(document).ready(function(){
 		$(":radio").radiocheck();
 		$("#rd_c").click(function(){
-                        $("#g_language").val($("#rd_c").val());       
+                        $("#g_language").val($("#rd_c").val());
                         $("#cppviewer").css("display","block");
                         $("#hppviewer").css("display","block");
                         $("#perlviewer").css("display","none");
@@ -70,7 +70,7 @@ my $jquery='
                         update_code();
                 });
 		$("#rd_cpp").click(function(){
-			$("#g_language").val($("#rd_cpp").val());	
+			$("#g_language").val($("#rd_cpp").val());
 			$("#cppviewer").css("display","block");
 			$("#hppviewer").css("display","block");
 			$("#perlviewer").css("display","none");
@@ -78,7 +78,7 @@ my $jquery='
 			$("#copyclp_cpp").css("display","block");
 			$("#copyclp_perl").css("display","none");
 			update_code();
-		});	
+		});
 		$("#rd_mfc").click(function(){
                         $("#g_language").val($("#rd_mfc").val());
 			$("#cppviewer").css("display","block");
@@ -100,7 +100,7 @@ my $jquery='
 			update_code();
                 });
 		var update_code=function(){
-			var language=$("#g_language").val();    
+			var language=$("#g_language").val();
                         var file=$("#ed_file").val();
                         var project=$("#ed_project").val();
                         var owner=$("#ed_owner").val();
@@ -146,10 +146,10 @@ my $jquery='
                                	 	error:function(a,b,c){
                                         	alert("Ajax failed:"+c);
                                 	}
-                        	});	
+                        	});
 			}
 		}
-		$("#ed_file").keyup(update_code);	
+		$("#ed_file").keyup(update_code);
 		$("#ed_project").keyup(update_code);
 		$("#ed_owner").keyup(update_code);
 		$("#ed_group").keyup(update_code);
@@ -159,7 +159,7 @@ my $jquery='
 			}
 		});
 		$("#vertical-slider").slider({
-                  	min: 10       
+                  	min: 10
                 });
 		$("#vertical-slider").slider({
 	                max: 30
@@ -190,13 +190,13 @@ print <<EOF
     $clipboard_header
     $highlight_header
     $joker_header
-    $jquery	
+    $jquery
   </head>
 
   <body>
     <input id="g_language" type="hidden" value="cpp"/>
-    
-    <div id="boxWrapp">	  
+
+    <div id="boxWrapp">
       <!-- Full Page Image Header Area -->
       <div id="about" class="header">
         <div class="maskHeader"></div>
@@ -207,31 +207,31 @@ print <<EOF
         <div id="flex-head" class="_flexslider">
           <ul class="slides">
             <li>
-              <h1>ASpring</h1>	
+              <h1>ASpring</h1>
               <h2>template generator</h2>
             </li>
           </ul>
         </div>
-     
+
         <a href="#aboutMore" class="btn btnAbout btn-clear border-color color-primary btn-lg linear">Go</a>
-      </div>		
-    </div>	
-    
+      </div>
+    </div>
+
     <!-- /Full Page Image Header Area -->
 
-    
+
     <!-- content -->
     <div id="aboutMore" class="page">
       <div class="container">
         <div class="row">
           <div class="col-md-10  col-md-offset-1">
             <div class="build title-page">
-              <h2 class="text-center">About ASpring</h2>	
+              <h2 class="text-center">About ASpring</h2>
               <div class="line-title bg-primary"></div>
            </div>
           </div><!-- end col -->
        </div><!-- end row -->
-		
+
        <div class="row">
          <div class="col-md-12">
 	   <div class="build main-about">
@@ -241,7 +241,7 @@ print <<EOF
 	           <div class="avatar img-thumbnail img-circle">
 	             <img src="3rdparty/joker/img/_kimbom2013.png" alt="avatar" />
 	           </div>
-	         </div>            
+	         </div>
 	       </div>
 	       <div class="col-md-9">
 	        <div class="about-content">
@@ -250,20 +250,20 @@ print <<EOF
 					</div>
 				       </div>
 				   </div>
-				  
-					
+
+
 				</div>
             </div><!-- end col -->
-		  
-	
+
+
 
 
 
         </div><!-- end row -->
       </div>
       </div>
-    
-    <!-- /Intro -->   
+
+    <!-- /Intro -->
 
     <!-- Portfolio -->
     <div id="work" class="page clearfix">
@@ -271,7 +271,7 @@ print <<EOF
        <div class="row">
          <div class="col-md-10  col-md-offset-1">
            <div class="build title-page">
-             <h2 class="text-center">Programming language comment generator</h2>	
+             <h2 class="text-center">Programming language comment generator</h2>
                <div class="line-title bg-primary"></div>
            </div>
          </div>
@@ -279,7 +279,7 @@ print <<EOF
        <div class="col-md-12">
          <div class="folio-content clearfix">
            <div class="row">
-             <div class="col-md-6">	
+             <div class="col-md-6">
                <input type="text" placeholder="File name" class="form-control" id="ed_file" maxlength="64"/>
                <input type="text" placeholder="Project name" class="form-control" id="ed_project" maxlength="64"/>
                <input type="text" placeholder="Owner name" class="form-control" id="ed_owner" maxlength="64"/>
@@ -289,7 +289,7 @@ print <<EOF
              <label class="radio">
                 <input type="radio" name="rd_language" id="rd_c" value="c" data-toggle="radio">
                   C
-              </label> 
+              </label>
 	     <label class="radio">
                 <input type="radio" name="rd_language" id="rd_cpp" value="cpp" data-toggle="radio" checked="">
                   C++
@@ -302,15 +302,15 @@ print <<EOF
                 <input type="radio" name="rd_language" id="rd_perl" value="perl" data-toggle="radio">
                   Perl
               </label>
-		
+
            </div>
 		<div class="col-md-1">
-		
-		<div id="vertical-slider" style="height: 150px;"></div>	
+
+		<div id="vertical-slider" style="height: 150px;"></div>
 	   </div>
          </div>
 	<button class="btn btn-hg btn-primary copy-button" id="copyclp_hpp" data-clipboard-action="copy" data-clipboard-target="#hppviewer">
-	   Copy C/C++ header to clipboard 
+	   Copy C/C++ header to clipboard
 	</button>
          <pre id="hppviewer" style="border:0px;padding:0px;background-color:transparent;font-size:20px;text-align:left">
            <code class="cpp" id="codeviewer_hpp">
@@ -321,7 +321,7 @@ print <<EOF
 
 
 	<button class="btn btn-hg btn-primary copy-button" id="copyclp_cpp" data-clipboard-action="copy" data-clipboard-target="#cppviewer">
-	  Copy C/C++ code to clipboard 
+	  Copy C/C++ code to clipboard
 	</button>
 	<pre id="cppviewer" style="border:0px;padding:0px;background-color:transparent;font-size:20px;text-align:left">
            <code class="cpp" id="codeviewer_cpp">
@@ -333,7 +333,7 @@ print <<EOF
 
 
 	<button class="btn btn-hg btn-primary copy-button" id="copyclp_perl" style="display:none" data-clipboard-action="copy" data-clipboard-target="#perlviewer">
-	   Copy script to clipboard 
+	   Copy script to clipboard
 	</button>
 	<pre id="perlviewer" style="display:none;border:0px;padding:0px;background-color:transparent;font-size:20px;text-align:left">
            <code class="perl" id="codeviewer_perl">
@@ -346,8 +346,8 @@ print <<EOF
    </div>
  </div>
 </div>
-    
-    
+
+
     <!-- Footer ########################################################################################################################################### -->
     <footer class="bg-black">
       <div class="container">
@@ -358,14 +358,14 @@ print <<EOF
 
 				</div><!-- end build -->
 			</div><!-- end col -->
-			
+
 			<div class="col-md-6 text-right">
 			<ul class="list-inline">
 			<li><a href="https://github.com/springkim" class="socIcon color-primary linear"><i class="fa fa-github fa-2x"></i></a></li>
 			<li><a href="http://cviplab.sogang.ac.kr/" class="socIcon color-primary linear"><i class="fa fa-info-circle fa-2x"></i></a></li>
 			<li><a href="http://kimbom.co.kr" class="socIcon color-primary linear"><i class="fa fa-archive fa-2x"></i></a></li>
 			</ul>
-		
+
 			</div>
         </div>
       </div>
@@ -374,7 +374,7 @@ print <<EOF
 
     <!-- JavaScript -->
     $joker_footer
-    $flatui_footer 
+    $flatui_footer
   </div>
   </body>
 

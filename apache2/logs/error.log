@@ -1,0 +1,342 @@
+[Thu Nov 22 16:17:05 2018] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 22 16:17:05 2018] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 22 16:17:05 2018] [notice] Parent: Created child process 21020
+Apache server shutdown initiated...
+Child 21020: Child process is running
+[Thu Nov 22 16:17:05 2018] [notice] Child 21020: Acquired the start mutex.
+[Thu Nov 22 16:17:05 2018] [notice] Child 21020: Starting 64 worker threads.
+[Thu Nov 22 16:17:05 2018] [notice] Child 21020: Starting thread to listen on port 8080.
+[Thu Nov 22 16:17:40 2018] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 22 16:17:40 2018] [notice] Child 21020: Exit event signaled. Child process is ending.
+[Thu Nov 22 16:17:41 2018] [notice] Child 21020: Released the start mutex
+[Thu Nov 22 16:17:42 2018] [notice] Child 21020: All worker threads have exited.
+[Thu Nov 22 16:17:42 2018] [notice] Child 21020: Child process is exiting
+[Thu Nov 22 16:17:42 2018] [notice] Parent: Child process exited successfully.
+[Thu Nov 22 16:19:05 2018] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 22 16:19:05 2018] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 22 16:19:05 2018] [notice] Parent: Created child process 7652
+Apache server shutdown initiated...
+Child 7652: Child process is running
+[Thu Nov 22 16:19:05 2018] [notice] Child 7652: Acquired the start mutex.
+[Thu Nov 22 16:19:05 2018] [notice] Child 7652: Starting 64 worker threads.
+[Thu Nov 22 16:19:05 2018] [notice] Child 7652: Starting thread to listen on port 8080.
+[Thu Nov 22 16:19:13 2018] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 22 16:19:13 2018] [notice] Child 7652: Exit event signaled. Child process is ending.
+[Thu Nov 22 16:19:14 2018] [notice] Child 7652: Released the start mutex
+[Thu Nov 22 16:19:15 2018] [notice] Child 7652: All worker threads have exited.
+[Thu Nov 22 16:19:15 2018] [notice] Child 7652: Child process is exiting
+[Thu Nov 22 16:19:15 2018] [notice] Parent: Child process exited successfully.
+[Thu Nov 22 16:53:32 2018] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 22 16:53:32 2018] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 22 16:53:32 2018] [notice] Parent: Created child process 5752
+Apache server shutdown initiated...
+Child 5752: Child process is running
+[Thu Nov 22 16:53:32 2018] [notice] Child 5752: Acquired the start mutex.
+[Thu Nov 22 16:53:32 2018] [notice] Child 5752: Starting 64 worker threads.
+[Thu Nov 22 16:53:32 2018] [notice] Child 5752: Starting thread to listen on port 8080.
+[Thu Nov 22 16:53:39 2018] [error] [client 127.0.0.1] File does not exist: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86/htdocs/favicon.ico
+[Thu Nov 22 16:53:43 2018] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 22 16:53:43 2018] [notice] Child 5752: Exit event signaled. Child process is ending.
+[Thu Nov 22 16:53:44 2018] [notice] Child 5752: Released the start mutex
+[Thu Nov 22 16:53:45 2018] [notice] Child 5752: All worker threads have exited.
+[Thu Nov 22 16:53:45 2018] [notice] Child 5752: Child process is exiting
+[Thu Nov 22 16:53:45 2018] [notice] Parent: Child process exited successfully.
+[Thu Nov 22 16:54:54 2018] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 22 16:54:54 2018] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 22 16:54:54 2018] [notice] Parent: Created child process 8820
+Apache server interrupted...
+otice] Child 8820: Child process is running
+[Thu Nov 22 16:54:54 2018] [notice] Child 8820: Acquired the start mutex.
+[Thu Nov 22 16:54:54 2018] [notice] Child 8820: Starting 64 worker threads.
+[Thu Nov 22 16:54:54 2018] [notice] Child 8820: Starting thread to listen on port 8080.
+[Thu Nov 22 16:56:38 2018] [notice] Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+nding.
+[Thu Nov 22 16:56:39 2018] [notice] Child 8820: Released the start mutex
+[Thu Nov 22 16:56:40 2018] [notice] Child 8820: All worker threads have exited.
+[Thu Nov 22 16:56:40 2018] [notice] Child 8820: Child process is exiting
+[Thu Nov 22 16:56:40 2018] [notice] Parent: Child process exited successfully.
+[Thu Nov 22 16:56:46 2018] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 22 16:56:46 2018] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 22 16:56:46 2018] [notice] Parent: Created child process 6688
+Apache server shutdown initiated...
+Child 6688: Child process is running
+[Thu Nov 22 16:56:46 2018] [notice] Child 6688: Acquired the start mutex.
+[Thu Nov 22 16:56:46 2018] [notice] Child 6688: Starting 64 worker threads.
+[Thu Nov 22 16:56:46 2018] [notice] Child 6688: Starting thread to listen on port 8080.
+[Thu Nov 22 16:56:59 2018] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 22 16:56:59 2018] [notice] Child 6688: Exit event signaled. Child process is ending.
+[Thu Nov 22 16:57:00 2018] [notice] Child 6688: Released the start mutex
+[Thu Nov 22 16:57:01 2018] [notice] Child 6688: All worker threads have exited.
+[Thu Nov 22 16:57:01 2018] [notice] Child 6688: Child process is exiting
+[Thu Nov 22 16:57:01 2018] [notice] Parent: Child process exited successfully.
+[Thu Nov 22 16:57:14 2018] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 22 16:57:14 2018] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 22 16:57:14 2018] [notice] Parent: Created child process 11032
+Apache server shutdown initiated...
+Child 11032: Child process is running
+[Thu Nov 22 16:57:14 2018] [notice] Child 11032: Acquired the start mutex.
+[Thu Nov 22 16:57:14 2018] [notice] Child 11032: Starting 64 worker threads.
+[Thu Nov 22 16:57:14 2018] [notice] Child 11032: Starting thread to listen on port 8080.
+[Thu Nov 22 16:57:17 2018] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 22 16:57:17 2018] [notice] Child 11032: Exit event signaled. Child process is ending.
+[Thu Nov 22 16:57:18 2018] [notice] Child 11032: Released the start mutex
+[Thu Nov 22 16:57:19 2018] [notice] Child 11032: All worker threads have exited.
+[Thu Nov 22 16:57:19 2018] [notice] Child 11032: Child process is exiting
+[Thu Nov 22 16:57:19 2018] [notice] Parent: Child process exited successfully.
+[Thu Nov 22 16:57:28 2018] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 22 16:57:28 2018] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 22 16:57:28 2018] [notice] Parent: Created child process 6324
+Apache server shutdown initiated...
+Child 6324: Child process is running
+[Thu Nov 22 16:57:28 2018] [notice] Child 6324: Acquired the start mutex.
+[Thu Nov 22 16:57:28 2018] [notice] Child 6324: Starting 64 worker threads.
+[Thu Nov 22 16:57:28 2018] [notice] Child 6324: Starting thread to listen on port 8080.
+[Thu Nov 22 16:57:33 2018] [error] [client 127.0.0.1] File does not exist: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86/htdocs/solarized-light.css, referer: http://localhost:8080/index.pl
+[Thu Nov 22 16:57:33 2018] [error] [client 127.0.0.1] File does not exist: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86/htdocs/solarized-light.css, referer: http://localhost:8080/index.pl
+[Thu Nov 22 16:57:33 2018] [error] [client 127.0.0.1] script not found or unable to stat: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86/htdocs/generate.pl, referer: http://localhost:8080/index.pl
+[Thu Nov 22 16:57:33 2018] [error] [client 127.0.0.1] script not found or unable to stat: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86/htdocs/generate.pl, referer: http://localhost:8080/index.pl
+[Thu Nov 22 16:59:12 2018] [error] [client 127.0.0.1] File does not exist: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86/htdocs/solarized-light.css, referer: http://localhost:8080/index.pl
+[Thu Nov 22 16:59:12 2018] [error] [client 127.0.0.1] (OS 2)지정된 파일을 찾을 수 없습니다.  : couldn't create child process: 720002: generate.pl, referer: http://localhost:8080/index.pl
+[Thu Nov 22 16:59:12 2018] [error] [client 127.0.0.1] (OS 2)지정된 파일을 찾을 수 없습니다.  : couldn't create child process: 720002: generate.pl, referer: http://localhost:8080/index.pl
+[Thu Nov 22 16:59:12 2018] [error] [client 127.0.0.1] (OS 2)지정된 파일을 찾을 수 없습니다.  : couldn't spawn child process: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86/htdocs/generate.pl, referer: http://localhost:8080/index.pl
+[Thu Nov 22 16:59:12 2018] [error] [client 127.0.0.1] (OS 2)지정된 파일을 찾을 수 없습니다.  : couldn't spawn child process: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86/htdocs/generate.pl, referer: http://localhost:8080/index.pl
+[Thu Nov 22 16:59:33 2018] [error] [client 127.0.0.1] File does not exist: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86/htdocs/solarized-light.css, referer: http://localhost:8080/index.pl
+[Thu Nov 22 16:59:33 2018] [error] [client 127.0.0.1] File does not exist: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86/htdocs/solarized-light.css, referer: http://localhost:8080/index.pl
+[Thu Nov 22 16:59:33 2018] [error] [client 127.0.0.1] (OS 2)지정된 파일을 찾을 수 없습니다.  : couldn't create child process: 720002: generate.pl, referer: http://localhost:8080/index.pl
+[Thu Nov 22 16:59:33 2018] [error] [client 127.0.0.1] (OS 2)지정된 파일을 찾을 수 없습니다.  : couldn't spawn child process: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86/htdocs/generate.pl, referer: http://localhost:8080/index.pl
+[Thu Nov 22 16:59:33 2018] [error] [client 127.0.0.1] (OS 2)지정된 파일을 찾을 수 없습니다.  : couldn't create child process: 720002: generate.pl, referer: http://localhost:8080/index.pl
+[Thu Nov 22 16:59:33 2018] [error] [client 127.0.0.1] (OS 2)지정된 파일을 찾을 수 없습니다.  : couldn't spawn child process: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86/htdocs/generate.pl, referer: http://localhost:8080/index.pl
+[Thu Nov 22 16:59:56 2018] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 22 16:59:56 2018] [notice] Child 6324: Exit event signaled. Child process is ending.
+[Thu Nov 22 16:59:57 2018] [notice] Child 6324: Released the start mutex
+[Thu Nov 22 16:59:58 2018] [notice] Child 6324: All worker threads have exited.
+[Thu Nov 22 16:59:58 2018] [notice] Child 6324: Child process is exiting
+[Thu Nov 22 16:59:58 2018] [notice] Parent: Child process exited successfully.
+[Thu Nov 22 17:00:00 2018] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 22 17:00:00 2018] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 22 17:00:00 2018] [notice] Parent: Created child process 6980
+Apache server shutdown initiated...
+Child 6980: Child process is running
+[Thu Nov 22 17:00:00 2018] [notice] Child 6980: Acquired the start mutex.
+[Thu Nov 22 17:00:00 2018] [notice] Child 6980: Starting 64 worker threads.
+[Thu Nov 22 17:00:00 2018] [notice] Child 6980: Starting thread to listen on port 8080.
+[Thu Nov 22 17:00:02 2018] [error] [client 127.0.0.1] File does not exist: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86/htdocs/solarized-light.css, referer: http://localhost:8080/index.pl
+[Thu Nov 22 17:00:02 2018] [error] [client 127.0.0.1] File does not exist: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86/htdocs/solarized-light.css, referer: http://localhost:8080/index.pl
+[Thu Nov 22 17:00:02 2018] [error] [client 127.0.0.1] (OS 2)지정된 파일을 찾을 수 없습니다.  : couldn't create child process: 720002: generate.pl, referer: http://localhost:8080/index.pl
+[Thu Nov 22 17:00:02 2018] [error] [client 127.0.0.1] (OS 2)지정된 파일을 찾을 수 없습니다.  : couldn't spawn child process: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86/htdocs/generate.pl, referer: http://localhost:8080/index.pl
+[Thu Nov 22 17:00:02 2018] [error] [client 127.0.0.1] (OS 2)지정된 파일을 찾을 수 없습니다.  : couldn't create child process: 720002: generate.pl, referer: http://localhost:8080/index.pl
+[Thu Nov 22 17:00:02 2018] [error] [client 127.0.0.1] (OS 2)지정된 파일을 찾을 수 없습니다.  : couldn't spawn child process: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86/htdocs/generate.pl, referer: http://localhost:8080/index.pl
+[Thu Nov 22 17:00:35 2018] [error] [client 127.0.0.1] File does not exist: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86/htdocs/solarized-light.css, referer: http://localhost:8080/index.pl
+[Thu Nov 22 17:00:35 2018] [error] [client 127.0.0.1] File does not exist: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86/htdocs/solarized-light.css, referer: http://localhost:8080/index.pl
+[Thu Nov 22 17:02:39 2018] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 22 17:02:39 2018] [notice] Child 6980: Exit event signaled. Child process is ending.
+[Thu Nov 22 17:02:40 2018] [notice] Child 6980: Released the start mutex
+[Thu Nov 22 17:02:41 2018] [notice] Child 6980: All worker threads have exited.
+[Thu Nov 22 17:02:41 2018] [notice] Child 6980: Child process is exiting
+[Thu Nov 22 17:02:41 2018] [notice] Parent: Child process exited successfully.
+[Thu Nov 22 17:05:59 2018] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 22 17:05:59 2018] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 22 17:05:59 2018] [notice] Parent: Created child process 9576
+Apache server shutdown initiated...
+Child 9576: Child process is running
+[Thu Nov 22 17:05:59 2018] [notice] Child 9576: Acquired the start mutex.
+[Thu Nov 22 17:05:59 2018] [notice] Child 9576: Starting 64 worker threads.
+[Thu Nov 22 17:05:59 2018] [notice] Child 9576: Starting thread to listen on port 8080.
+[Thu Nov 22 17:06:06 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Documents/git/ASpring/index.pl
+[Thu Nov 22 17:06:06 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86
+[Thu Nov 22 17:06:17 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Documents/git/ASpring/index.pl
+[Thu Nov 22 17:06:17 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86
+[Thu Nov 22 17:06:24 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Documents/git/ASpring/index.pl
+[Thu Nov 22 17:06:24 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86
+[Thu Nov 22 17:06:33 2018] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 22 17:06:33 2018] [notice] Child 9576: Exit event signaled. Child process is ending.
+[Thu Nov 22 17:06:34 2018] [notice] Child 9576: Released the start mutex
+[Thu Nov 22 17:06:35 2018] [notice] Child 9576: All worker threads have exited.
+[Thu Nov 22 17:06:35 2018] [notice] Child 9576: Child process is exiting
+[Thu Nov 22 17:06:35 2018] [notice] Parent: Child process exited successfully.
+[Thu Nov 22 17:06:36 2018] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 22 17:06:36 2018] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 22 17:06:36 2018] [notice] Parent: Created child process 10216
+Apache server shutdown initiated...
+Child 10216: Child process is running
+[Thu Nov 22 17:06:36 2018] [notice] Child 10216: Acquired the start mutex.
+[Thu Nov 22 17:06:36 2018] [notice] Child 10216: Starting 64 worker threads.
+[Thu Nov 22 17:06:36 2018] [notice] Child 10216: Starting thread to listen on port 8080.
+[Thu Nov 22 17:06:37 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Documents/git/ASpring/index.pl
+[Thu Nov 22 17:06:37 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86
+[Thu Nov 22 17:06:38 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Documents/git/ASpring/index.pl
+[Thu Nov 22 17:06:38 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86
+[Thu Nov 22 17:06:39 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Documents/git/ASpring/index.pl
+[Thu Nov 22 17:06:39 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86
+[Thu Nov 22 17:06:45 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Documents/git/ASpring/test.pl
+[Thu Nov 22 17:06:45 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86
+[Thu Nov 22 17:06:50 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Documents/git/ASpring/test2.pl
+[Thu Nov 22 17:06:50 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86
+[Thu Nov 22 17:07:14 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Documents/git/ASpring/test2.pl
+[Thu Nov 22 17:07:14 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86
+[Thu Nov 22 17:07:15 2018] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 22 17:07:15 2018] [notice] Child 10216: Exit event signaled. Child process is ending.
+[Thu Nov 22 17:07:16 2018] [notice] Child 10216: Released the start mutex
+[Thu Nov 22 17:07:19 2018] [notice] Child 10216: All worker threads have exited.
+[Thu Nov 22 17:07:19 2018] [notice] Child 10216: Child process is exiting
+[Thu Nov 22 17:07:19 2018] [notice] Parent: Child process exited successfully.
+[Thu Nov 22 17:07:20 2018] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 22 17:07:20 2018] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 22 17:07:20 2018] [notice] Parent: Created child process 11500
+Apache server shutdown initiated...
+Child 11500: Child process is running
+[Thu Nov 22 17:07:20 2018] [notice] Child 11500: Acquired the start mutex.
+[Thu Nov 22 17:07:20 2018] [notice] Child 11500: Starting 64 worker threads.
+[Thu Nov 22 17:07:20 2018] [notice] Child 11500: Starting thread to listen on port 8080.
+[Thu Nov 22 17:07:21 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Documents/git/ASpring/test2.pl
+[Thu Nov 22 17:07:21 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86
+[Thu Nov 22 17:07:22 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Documents/git/ASpring/test2.pl
+[Thu Nov 22 17:07:22 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86
+[Thu Nov 22 17:07:22 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Documents/git/ASpring/test2.pl
+[Thu Nov 22 17:07:22 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86
+[Thu Nov 22 17:07:23 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Documents/git/ASpring/test2.pl
+[Thu Nov 22 17:07:23 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86
+[Thu Nov 22 17:07:23 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Documents/git/ASpring/test2.pl
+[Thu Nov 22 17:07:23 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86
+[Thu Nov 22 17:07:31 2018] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 22 17:07:31 2018] [notice] Child 11500: Exit event signaled. Child process is ending.
+[Thu Nov 22 17:07:32 2018] [notice] Child 11500: Released the start mutex
+[Thu Nov 22 17:07:33 2018] [notice] Child 11500: All worker threads have exited.
+[Thu Nov 22 17:07:33 2018] [notice] Child 11500: Child process is exiting
+[Thu Nov 22 17:07:33 2018] [notice] Parent: Child process exited successfully.
+[Thu Nov 22 17:07:34 2018] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 22 17:07:34 2018] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 22 17:07:34 2018] [notice] Parent: Created child process 5352
+Apache server shutdown initiated...
+Child 5352: Child process is running
+[Thu Nov 22 17:07:34 2018] [notice] Child 5352: Acquired the start mutex.
+[Thu Nov 22 17:07:34 2018] [notice] Child 5352: Starting 64 worker threads.
+[Thu Nov 22 17:07:34 2018] [notice] Child 5352: Starting thread to listen on port 8080.
+[Thu Nov 22 17:07:35 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Documents/git/ASpring/test2.pl
+[Thu Nov 22 17:07:35 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86
+[Thu Nov 22 17:07:47 2018] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 22 17:07:47 2018] [notice] Child 5352: Exit event signaled. Child process is ending.
+[Thu Nov 22 17:07:48 2018] [notice] Child 5352: Released the start mutex
+[Thu Nov 22 17:07:49 2018] [notice] Child 5352: All worker threads have exited.
+[Thu Nov 22 17:07:49 2018] [notice] Child 5352: Child process is exiting
+[Thu Nov 22 17:07:49 2018] [notice] Parent: Child process exited successfully.
+[Thu Nov 22 17:07:50 2018] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 22 17:07:50 2018] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 22 17:07:50 2018] [notice] Parent: Created child process 6616
+Apache server shutdown initiated...
+Child 6616: Child process is running
+[Thu Nov 22 17:07:50 2018] [notice] Child 6616: Acquired the start mutex.
+[Thu Nov 22 17:07:50 2018] [notice] Child 6616: Starting 64 worker threads.
+[Thu Nov 22 17:07:50 2018] [notice] Child 6616: Starting thread to listen on port 8080.
+[Thu Nov 22 17:07:54 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Documents/git/ASpring/index.pl
+[Thu Nov 22 17:07:54 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86
+[Thu Nov 22 17:08:14 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Documents/git/ASpring/index.pl
+[Thu Nov 22 17:08:14 2018] [error] [client 127.0.0.1] client denied by server configuration: C:/Users/VIRNECT/Desktop/portable-apache-2.2.17-win32-x86
+[Thu Nov 22 17:08:16 2018] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 22 17:08:16 2018] [notice] Child 6616: Exit event signaled. Child process is ending.
+[Thu Nov 22 17:08:17 2018] [notice] Child 6616: Released the start mutex
+[Thu Nov 22 17:08:20 2018] [notice] Child 6616: All worker threads have exited.
+[Thu Nov 22 17:08:20 2018] [notice] Child 6616: Child process is exiting
+[Thu Nov 22 17:08:20 2018] [notice] Parent: Child process exited successfully.
+[Thu Nov 22 17:08:22 2018] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 22 17:08:22 2018] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 22 17:08:22 2018] [notice] Parent: Created child process 12540
+Apache server shutdown initiated...
+Child 12540: Child process is running
+[Thu Nov 22 17:08:23 2018] [notice] Child 12540: Acquired the start mutex.
+[Thu Nov 22 17:08:23 2018] [notice] Child 12540: Starting 64 worker threads.
+[Thu Nov 22 17:08:23 2018] [notice] Child 12540: Starting thread to listen on port 8080.
+[Thu Nov 22 17:09:18 2018] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 22 17:09:18 2018] [notice] Child 12540: Exit event signaled. Child process is ending.
+[Thu Nov 22 17:09:19 2018] [notice] Child 12540: Released the start mutex
+[Thu Nov 22 17:09:20 2018] [notice] Child 12540: All worker threads have exited.
+[Thu Nov 22 17:09:20 2018] [notice] Child 12540: Child process is exiting
+[Thu Nov 22 17:09:20 2018] [notice] Parent: Child process exited successfully.
+[Thu Nov 22 17:09:20 2018] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 22 17:09:20 2018] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 22 17:09:20 2018] [notice] Parent: Created child process 12624
+Apache server shutdown initiated...
+Child 12624: Child process is running
+[Thu Nov 22 17:09:20 2018] [notice] Child 12624: Acquired the start mutex.
+[Thu Nov 22 17:09:20 2018] [notice] Child 12624: Starting 64 worker threads.
+[Thu Nov 22 17:09:20 2018] [notice] Child 12624: Starting thread to listen on port 8080.
+[Thu Nov 22 17:09:28 2018] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 22 17:09:28 2018] [notice] Child 12624: Exit event signaled. Child process is ending.
+[Thu Nov 22 17:09:29 2018] [notice] Child 12624: Released the start mutex
+[Thu Nov 22 17:09:31 2018] [notice] Child 12624: All worker threads have exited.
+[Thu Nov 22 17:09:31 2018] [notice] Child 12624: Child process is exiting
+[Thu Nov 22 17:09:31 2018] [notice] Parent: Child process exited successfully.
+[Thu Nov 22 17:09:35 2018] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 22 17:09:35 2018] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 22 17:09:35 2018] [notice] Parent: Created child process 4444
+Apache server shutdown initiated...
+Child 4444: Child process is running
+[Thu Nov 22 17:09:35 2018] [notice] Child 4444: Acquired the start mutex.
+[Thu Nov 22 17:09:35 2018] [notice] Child 4444: Starting 64 worker threads.
+[Thu Nov 22 17:09:35 2018] [notice] Child 4444: Starting thread to listen on port 8080.
+[Thu Nov 22 17:09:43 2018] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 22 17:09:43 2018] [notice] Child 4444: Exit event signaled. Child process is ending.
+[Thu Nov 22 17:09:44 2018] [notice] Child 4444: Released the start mutex
+[Thu Nov 22 17:09:45 2018] [notice] Child 4444: All worker threads have exited.
+[Thu Nov 22 17:09:45 2018] [notice] Child 4444: Child process is exiting
+[Thu Nov 22 17:09:45 2018] [notice] Parent: Child process exited successfully.
+[Thu Nov 22 17:09:51 2018] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 22 17:09:51 2018] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 22 17:09:51 2018] [notice] Parent: Created child process 3512
+Apache server shutdown initiated...
+Child 3512: Child process is running
+[Thu Nov 22 17:09:51 2018] [notice] Child 3512: Acquired the start mutex.
+[Thu Nov 22 17:09:51 2018] [notice] Child 3512: Starting 64 worker threads.
+[Thu Nov 22 17:09:51 2018] [notice] Child 3512: Starting thread to listen on port 8080.
+[Thu Nov 22 17:10:13 2018] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 22 17:10:13 2018] [notice] Child 3512: Exit event signaled. Child process is ending.
+[Thu Nov 22 17:10:14 2018] [notice] Child 3512: Released the start mutex
+[Thu Nov 22 17:10:15 2018] [notice] Child 3512: All worker threads have exited.
+[Thu Nov 22 17:10:15 2018] [notice] Child 3512: Child process is exiting
+[Thu Nov 22 17:10:15 2018] [notice] Parent: Child process exited successfully.
+[Thu Nov 22 17:10:39 2018] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 22 17:10:39 2018] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 22 17:10:39 2018] [notice] Parent: Created child process 2372
+Apache server shutdown initiated...
+Child 2372: Child process is running
+[Thu Nov 22 17:10:39 2018] [notice] Child 2372: Acquired the start mutex.
+[Thu Nov 22 17:10:39 2018] [notice] Child 2372: Starting 64 worker threads.
+[Thu Nov 22 17:10:39 2018] [notice] Child 2372: Starting thread to listen on port 8080.
+[Thu Nov 22 17:13:57 2018] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 22 17:13:57 2018] [notice] Child 2372: Exit event signaled. Child process is ending.
+[Thu Nov 22 17:13:58 2018] [notice] Child 2372: Released the start mutex
+[Thu Nov 22 17:13:59 2018] [notice] Child 2372: All worker threads have exited.
+[Thu Nov 22 17:13:59 2018] [notice] Child 2372: Child process is exiting
+[Thu Nov 22 17:13:59 2018] [notice] Parent: Child process exited successfully.
+[Thu Nov 22 17:13:59 2018] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 22 17:13:59 2018] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 22 17:13:59 2018] [notice] Parent: Created child process 9256
+Apache server shutdown initiated...
+Child 9256: Child process is running
+[Thu Nov 22 17:13:59 2018] [notice] Child 9256: Acquired the start mutex.
+[Thu Nov 22 17:13:59 2018] [notice] Child 9256: Starting 64 worker threads.
+[Thu Nov 22 17:13:59 2018] [notice] Child 9256: Starting thread to listen on port 8080.
+[Thu Nov 22 17:14:15 2018] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 22 17:14:15 2018] [notice] Child 9256: Exit event signaled. Child process is ending.
+[Thu Nov 22 17:14:16 2018] [notice] Child 9256: Released the start mutex
+[Thu Nov 22 17:14:17 2018] [notice] Child 9256: All worker threads have exited.
+[Thu Nov 22 17:14:17 2018] [notice] Child 9256: Child process is exiting
+[Thu Nov 22 17:14:17 2018] [notice] Parent: Child process exited successfully.
+[Thu Nov 22 17:35:12 2018] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 22 17:35:12 2018] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 22 17:35:12 2018] [notice] Parent: Created child process 904
+Apache server shutdown initiated...
+Child 904: Child process is running
+[Thu Nov 22 17:35:12 2018] [notice] Child 904: Acquired the start mutex.
+[Thu Nov 22 17:35:12 2018] [notice] Child 904: Starting 64 worker threads.
+[Thu Nov 22 17:35:12 2018] [notice] Child 904: Starting thread to listen on port 8080.
+[Thu Nov 22 17:38:00 2018] [error] [client 127.0.0.1] File does not exist: C:/Users/VIRNECT/Documents/git/ASpring/favicon.ico
+[Thu Nov 22 17:40:25 2018] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 22 17:40:25 2018] [notice] Child 904: Exit event signaled. Child process is ending.
+[Thu Nov 22 17:40:26 2018] [notice] Child 904: Released the start mutex
+[Thu Nov 22 17:40:27 2018] [notice] Child 904: All worker threads have exited.
+[Thu Nov 22 17:40:27 2018] [notice] Child 904: Child process is exiting
+[Thu Nov 22 17:40:27 2018] [notice] Parent: Child process exited successfully.
