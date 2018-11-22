@@ -384,3 +384,15 @@ Child 5820: Child process is running
 [Thu Nov 22 19:18:53 2018] [notice] Child 5820: Released the start mutex
 [Thu Nov 22 19:19:08 2018] [notice] Child 5820: All worker threads have exited.
 [Thu Nov 22 19:19:08 2018] [notice] Child 5820: Child process is exiting
+[Thu Nov 22 19:22:25 2018] [warn] pid file C:/Users/VIRNECT/Documents/github/ASpring/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Nov 22 19:22:25 2018] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 22 19:22:25 2018] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 22 19:22:25 2018] [notice] Parent: Created child process 6212
+Apache server shutdown initiated...
+Child 6212: Child process is running
+[Thu Nov 22 19:22:25 2018] [notice] Child 6212: Acquired the start mutex.
+[Thu Nov 22 19:22:25 2018] [notice] Child 6212: Starting 64 worker threads.
+[Thu Nov 22 19:22:25 2018] [notice] Child 6212: Starting thread to listen on port 8080.
+[Thu Nov 22 19:24:30 2018] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 22 19:24:30 2018] [notice] Child 6212: Exit event signaled. Child process is ending.
+[Thu Nov 22 19:24:31 2018] [notice] Child 6212: Released the start mutex
